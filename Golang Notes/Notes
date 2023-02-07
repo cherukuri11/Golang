@@ -1,0 +1,90 @@
+Advantages of Go:
+Runs fast
+Garbage Collection
+Simpler objects: essentially OOP
+Concurrency is efficient
+
+
+Runs Fast: Software Translation
+
+Machine Language
+Assembly language: Ex: ADD- like english
+High Level Language: C,Java,Python,Go
+
+Compiled vs Interpreted
+
+Compiles only one time and executable machine code will be run during execution
+
+Interpreted
+
+Translate instructions while code is executed:
+Java is partially both because it compiles and generates byte code and bytecode is translated during runtime(JVM)
+
+Compiled code is faster
+
+
+GOLANG:
+
+Go is OOP but it is weakly OOP.
+it implements obj but has limited features.
+Encapsulation: group together data and functions which are related.
+
+Object in Go:
+Go not uses term class
+It uses structs with associated methods
+Struct is data,methods:
+   No inheritance
+   No constructors
+   No Generics
+Easier to code
+
+
+Concurrency:
+
+Moore's Law: no of transistors double every 18 months- not correct lately
+clock frequencies: generate heat
+
+Alternative is:
+
+Parallelism: Cores in the Processor
+
+Concurrent Programming: Management of multiple tasks at same time
+Not executing at same time, but alive at same time
+
+Concurrency in Go:
+   concurrency primitives: easy to use
+   GoRoutines- threads
+   Channels- communicate btw tasks
+   Select enables task synchronization:
+
+Commands in go:
+
+go build- compiles the code
+do doc: prepares documentation
+go fmt- format source code
+go get- downloads the packages from web
+go list- lists all packages
+go run- runs the executable
+go tests: runs test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

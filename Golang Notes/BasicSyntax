@@ -1,0 +1,147 @@
+
+Variables:
+
+Naming:
+start with letter- case sensitive
+
+variables should have name and type:
+var x int
+var x,y int
+
+Types:
+Integer
+Floating point
+Strings
+
+Type Declarations:
+creating alias for a type:
+Examples:
+    type Celsius float64
+    type IDnum int
+ Declaring:
+    var temp Celsius
+    var pavan IDnum
+ Initializing:
+    var x int=100
+    var x=100
+ If we wont initialize- it has 0 value of its type:
+
+ Short Variable Declarations:
+ x:=100
+ can only do this inside a function
+
+ Pointers:
+
+ address to data
+
+ & returns address of a variable/function
+ * returns data
+
+ New- creates a variables and returns the pointer to the variable
+
+ pavan:=new(int)
+ *pavan=3
+
+ Variable Scope:
+
+ Blocks:
+    {}
+
+   Stack and Heap:
+   Stack contains all function var
+
+   Heap: Deallocation needs to be done manually
+   exacmple: malloc in c , free
+
+  Garbage collection is done by interpreter.
+  Ex: JVM, python Interpretor
+
+  But Go is a compiled language which enables GC.
+  implementation is fast
+
+  	slice example
+  	arr:=[...]string{"1","2"}
+  	s1:=arr[1:2]
+
+  	Length and capacity function returns length and capacity of the arrays
+
+  	Slice Literals:
+  	  sli:=[]int{1,2,3}
+
+
+  Function Make: Create a slice using make()
+
+  2 argument: specify type, length/capacity
+
+  sli := make([]int,10)
+
+  3 argument
+  array,length,capacity
+  sli := make([]int,10, 25)
+
+  Append:
+    we can increase the size of the slice:
+
+
+ Hash Tables: DS --- Key/value pairs
+  each value has unique keys
+
+  Hash Function is used to process the key and inserts the value
+
+  Map:
+  make() to create a map:
+   var idMap map[string]int
+
+   idMap= make(map[string[int)
+
+   idmap:= map[string]int{"pavan": 123}
+
+  Accessing Maps:
+
+  idMap["pavan"]-- returns value associated with "pavan"
+
+  delete(idmap--name of the map, "pavan")
+
+  Map Functions:
+
+  Two value assignments:
+
+  id, p:=idmap["pavan" ]
+
+
+  Structs: aggregate DataType
+  Just like an object
+
+  Person--- names, address, age
+
+  Dot notation to assign
+  p1:= new(Person)-- initializes to 0
+
+
+  PROTOCOL AND FORMATS IN GO:
+
+  RFC- Request for Comment
+
+  Ex: HTML,URI,HTTP
+
+  Packages for RFC:
+
+  net/http
+
+  http.Get(www.uci.edu):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
